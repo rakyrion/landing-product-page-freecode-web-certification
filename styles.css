@@ -1,0 +1,227 @@
+*{
+    box-sizing:0;
+    margin:0;
+    padding:0;
+  }
+  div {
+    display:block;
+  }
+  nav > ul {
+    width: 35vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  body{
+    background-color:#E5E8E8;
+  }
+  main{
+    font-family:'Baskervville', verdana;
+    padding-top: 75px;
+  }
+  header {
+      font-family: Anton;
+      color:#1ED05C;
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      min-height: 75px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(40, 100, 199);
+  }
+  .div-logo {
+    width: 50vw;
+  }
+  nav ul{
+    width:40vw;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  }
+  li {
+    list-style: none;
+  }
+  li a{
+    text-decoration: none;
+    color: rgb(255, 135, 0);
+    font-size: 1.3rem;
+  }
+  #email{
+    display: flex;
+    max-width: 400px;
+    width:100%;
+    height: 30px;
+    text-align: center;
+    border: 2px solid rgb(40, 100, 199);
+    border-radius: 10px;
+    margin: 0 auto;
+    
+  }
+  #submit {
+    display: flex;
+    width: 100%;
+    max-width: 266px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: 30 auto;
+    border-radius: 10px;
+    padding: 5px 25px 5px 25px;
+    color: rgb(40, 100, 199);
+    font-weight: 900;
+    border: 2px solid rgb(40, 100, 199);
+    background-color:rgb(255, 135, 0);
+  }
+  #h2-form{
+    text-align: center;
+    padding: 0 0 50px 0;
+  }
+  .social-icons {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    margin: 10 auto;
+  
+  }
+  .social-icons i {
+    display: flex;
+    margin: 0 auto;
+    font-size:25px;
+  }
+  .grid-caracteristicas{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .icon-caracteristicas {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    width: 20vw;
+    color: rgb(255, 135, 0);
+  }
+  section {
+    padding: 0px 0px 50px 0px;
+  }
+  .texto-caracteristicas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    padding: 5px 5px 5px 5px;
+  }
+  #video{
+    display:flex;
+    width: 100%;
+    max-width: 600px;
+    margin:0 auto;
+  }
+  #section-modelos{
+    display: flex;
+    justify-content: center;
+  }
+  .grid-modelos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 28vw;
+    border: solid 1px black;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  .titulo-modelo {
+    height: 30px;
+    font-size: 20px;
+    padding: 10;
+    background: linear-gradient(#FEF272,#FFED37);
+    font-weight: bold;
+    text-align: center;
+    font-family: Raleway, Verdana;
+  }
+  .texto-modelo {
+    text-align: center;
+    vertical-align: center;
+    padding: 20px 0px 20px 0;
+    font-size: 18px;
+    height: 120px;
+  }
+  .boton-comprar {
+    display: flex;
+  }
+  .btn-comprar {
+  margin: 10 auto;
+  height: 40px;
+  width: 60%;
+  background:#EC7063;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Raleway, Verdana;
+  text-align: center;
+  color: rgb(40, 100, 199);
+  }
+  .btn-comprar:hover{
+    height: 50px;
+    width: 70%;
+    background-color: #E74C3C
+  }
+  .btn-comprar a{
+    text-decoration: none;
+    color:rgb(40, 100, 199);
+  }
+  .modelo-precio {
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    font-size: 24px;
+    font-family:'Baskervville';
+    font-weight: bold;
+    color: red;
+  }
+  @media (max-width:600px){
+  header{
+    flex-wrap: wrap;
+  }
+  @media (max-width:600px){
+  nav{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 50px;
+  }
+  }
+  @media (max-width:600px){
+  nav > ul{
+   flex-direction: column;
+  }
+  }
+  @media (max-width:600px){
+  .div-logo{
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+  }
+  }
+  @media (max-width:600px){
+  #header-img{
+    display: flex;
+    margin: 0 auto;
+  }
+  }
+  @media (max-width:600px){
+  main{
+    margin-top: 80;
+  }
+  @media (max-width:600px){
+  #section-modelos{
+    flex-direction: column;
+  }
+  @media (max-width:600px){
+  .grid-modelos{
+    max-width:350px;
+    width: 100%;
+  }
