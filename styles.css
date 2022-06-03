@@ -67,13 +67,17 @@
     height: 40px;
     font-size: 20px;
     text-align: center;
-    margin: 30 auto;
+    margin: 30px auto;
     border-radius: 10px;
     padding: 5px 25px 5px 25px;
     color: rgb(40, 100, 199);
     font-weight: 900;
     border: 2px solid rgb(40, 100, 199);
     background-color:rgb(255, 135, 0);
+  }
+  #submit:hover{
+    height: 60px;
+    background-color: rgb(255, 108, 0);
   }
   #h2-form{
     text-align: center;
@@ -83,7 +87,7 @@
     width: 100%;
     max-width: 350px;
     display: flex;
-    margin: 10 auto;
+    margin: 10px auto;
   
   }
   .social-icons i {
@@ -123,11 +127,13 @@
   #section-modelos{
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
   }
   .grid-modelos {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 20px;
     width: 28vw;
     border: solid 1px black;
     border-radius: 3px;
@@ -136,7 +142,7 @@
   .titulo-modelo {
     height: 30px;
     font-size: 20px;
-    padding: 10;
+    padding: 10px;
     background: linear-gradient(#FEF272,#FFED37);
     font-weight: bold;
     text-align: center;
@@ -153,7 +159,7 @@
     display: flex;
   }
   .btn-comprar {
-  margin: 10 auto;
+  margin: 10px auto;
   height: 40px;
   width: 60%;
   background:#EC7063;
@@ -173,18 +179,19 @@
     color:rgb(40, 100, 199);
   }
   .modelo-precio {
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 10px 0 10px 0;
     font-size: 24px;
     font-family:'Baskervville';
     font-weight: bold;
     color: red;
   }
-  @media (max-width:600px){
+  @media (max-width:700px){
   header{
     flex-wrap: wrap;
   }
-  @media (max-width:600px){
+}
+  @media (max-width:700px){
   nav{
     display: flex;
     width: 100%;
@@ -194,34 +201,38 @@
     padding: 0px 50px;
   }
   }
-  @media (max-width:600px){
+  @media (max-width:700px){
   nav > ul{
    flex-direction: column;
   }
   }
-  @media (max-width:600px){
+  @media (max-width:700px){
   .div-logo{
     position: relative;
     width: 100%;
     margin-top: 15px;
   }
   }
-  @media (max-width:600px){
+  @media (max-width:700px){
   #header-img{
     display: flex;
     margin: 0 auto;
   }
   }
-  @media (max-width:600px){
+  @media (max-width:700px){
   main{
-    margin-top: 80;
+    margin-top: 80px;
   }
-  @media (max-width:600px){
+}
+  @media (max-width:700px){
   #section-modelos{
     flex-direction: column;
   }
-  @media (max-width:600px){
+}
+  @media (max-width:700px){
   .grid-modelos{
     max-width:350px;
     width: 100%;
+    margin:20px auto;
   }
+}
